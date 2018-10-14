@@ -1,0 +1,1 @@
+take 10 (repeat "Hello, Haskell.")
