@@ -22,7 +22,7 @@ shift =
     if feedbackRegister /= startstate
         then 
             cipherbits ++ last feedbackRegister
-            feedbackRegister[0] xor feedbackRegister[2] : feedbackRegister
+            feedbackRegister !! 0 xor feedbackRegister !! 2 : feedbackRegister
             counter + 1
         else 
             counter
