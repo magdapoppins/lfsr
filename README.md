@@ -2,6 +2,7 @@
 
 ### Running Haskell samples
 To run these files, run GHC's interactive mode from the command line by the command `ghci`. The GHCI prompt appears as a sign that everything is ok. You can load a file by typing `:l filename` and reload by `:r`.
+In non-interactive mode the code files can be compiled by `ghc [filename].hs` and after that run by `./[filename]`.
 
 ### Running the Python3 samples
 The `.py` files can be run with python3 by the command `python3 [filename].py`. The tests for the files live in the `tests.py` file and can be run simply by running that file.
