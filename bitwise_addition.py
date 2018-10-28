@@ -1,14 +1,14 @@
 def bitwise_add(a, b):
     # What to do if two arrays of not equal length?
     if (len(a) != len(b)):
-        return "No way"
+        print("For now, lets have binaries of the same length.")
 
     answer = []
     for i in range(len(a)):
-        # Xor from left to right
-        # add result to answer
+        currentIndex = len(a)-i-1
+        answer.append(int(a[currentIndex] != b[currentIndex]))
 
-    return answer
+    return answer[::-1]
 
 
 
