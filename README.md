@@ -1,5 +1,7 @@
 # Algebraic Structures in Cryptography Notes
 
+> Assume Eve has captured the ciphertext C = F13AB717 (in hexadecimal form). She suspects that the plaintext is encoded in 8-bit ascii and the actual plaintext is SELL, thus encoded P = 53454C4C. Eve wants to replace the ciphertext C with C' that she believes whould be decrypted as BUY, encoded P'= 42555920. How does Eve find C'?  
+
 ### Running Haskell samples
 To run these files, run GHC's interactive mode from the command line by the command `ghci`. The GHCI prompt appears as a sign that everything is ok. You can load a file by typing `:l filename` and reload by `:r`.
 
