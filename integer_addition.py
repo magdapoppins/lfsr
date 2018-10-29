@@ -1,3 +1,9 @@
+def add_bin(a, b):
+    # Takes two binary strings and adds them
+    res_add = int(a, 2) + int(b, 2)  # Convert to int with base 2 and add
+    res_str = "{0:b}".format(res_add)  # Convert int to binary string
+    return res_str
+
 def integer_add(a, b):
     carry = 0
     # TODO: What to do if two arrays of not equal length?
